@@ -30,6 +30,17 @@ const soccerTeam = [
 soccerTeam.forEach(team => {
     team.puntiFatti = generaNumeroCasuale(0, 100);
     team.falliSubiti = generaNumeroCasuale(0, 50);
+    //let newSoccerTeam = [team.nome, team.falliSubiti];
+
+    //console.log(newSoccerTeam);
+    let {nome, falliSubiti} = team
+    console.log(nome, falliSubiti);
+    document.getElementById("result").innerHTML += `${team.nome} ${team.falliSubiti} <br> `
 });
 
-console.log(soccerTeam);
+
+
+//let newSoccerTeam = soccerTeam.map(({ nome, falliSubiti }) => ({ nome, falliSubiti }));
+//console.log(newSoccerTeam,);
+
+

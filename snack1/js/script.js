@@ -28,16 +28,16 @@ let nomeBike = bikeRacing[0].name
 
 
 bikeRacing.forEach((element) => {
-const {weight, name} = element;
-//console.log(weight, name);
 
-    const burBikename = element.name 
+
+    const curBikename = element.name 
     const curBike = element.weight
    // console.log(curBike);
+   console.log();
     
     if (curBike < lightBike) {
         lightBike = curBike
-        nomeBike = burBikename
+        nomeBike = curBikename
     }
 
 })
