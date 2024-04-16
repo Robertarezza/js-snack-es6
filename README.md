@@ -14,6 +14,28 @@ Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0
     - [x]  Punti fatti e falli subiti.
     - [x] Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
+
+## Bonus, snack 3
     Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b).
 La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
 Usiamo i nuovi metodi degli array foreach o filter.
+
+## Snack4
+Crea un array composto da 4 automobili.
+Ogni oggetto automobile avrà le seguenti proprietà: marca, modello e alimentazione (benzina, diesel, gpl, elettrico, metano).
+Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina, nel secondo solo le auto a diesel, nel terzo il resto delle auto.
+
+- ciclo for per iterare su ogni oggetto
+
+## Snack5
+Crea un array di oggetti che rappresentano delle persone.
+Ogni persona ha un nome, un cognome e un’età.
+Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e cognome e l’indicazione se può guidare, in base all’età.
+
+creo un array nuovo;
+
+faccio un ciclo for per iterare su ogni oggetto
+poi imposto la condizio
+    se curPerson.age > 18
+        new array = `${curperson.name} ${curperson.lastname} ha ${curperson.age} e può guidare
+    
