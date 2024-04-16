@@ -33,9 +33,9 @@ soccerTeam.forEach(team => {
     //let newSoccerTeam = [team.nome, team.falliSubiti];
 
     //console.log(newSoccerTeam);
-    let {nome, falliSubiti} = team
-    console.log(nome, falliSubiti);
-    document.getElementById("result").innerHTML += `${team.nome} ${team.falliSubiti} <br> `
+    // let {nome, falliSubiti} = team
+    // console.log(nome, falliSubiti, team);
+   
 });
 
 
@@ -44,3 +44,13 @@ soccerTeam.forEach(team => {
 //console.log(newSoccerTeam,);
 
 
+const newTeams = soccerTeam.map((team) => {
+    const {nome, falliSubiti} = team
+    return {
+        nome,
+        falliSubiti
+    }
+    
+})
+
+console.log(newTeams);

@@ -13,3 +13,7 @@ Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0
 - [x] Generare numeri random al posto degli 0 nelle proprietà:
     - [x]  Punti fatti e falli subiti.
     - [x] Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+
+    Scrivere una funzione che accetti tre argomenti, un array e due numeri (a più piccolo di b).
+La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra i due numeri.
+Usiamo i nuovi metodi degli array foreach o filter.
