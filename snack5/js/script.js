@@ -24,3 +24,13 @@ const person = [
 
 let newArray = []
 
+person.forEach((curPerson) => {
+
+    if (curPerson.age >= 18) {
+        newArray += `${curPerson.nome} ${curPerson.lastname} ha ${curPerson.age} anni e può guidare,`
+    }else {
+        newArray += `${curPerson.nome} ${curPerson.lastname} ha ${curPerson.age} anni e non può guidare,`
+    }
+
+})
+console.log(newArray);
