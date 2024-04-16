@@ -30,7 +30,8 @@ person.forEach((curPerson) => {
         newArray += `${curPerson.nome} ${curPerson.lastname} ha ${curPerson.age} anni e può guidare,`
     }else {
         newArray += `${curPerson.nome} ${curPerson.lastname} ha ${curPerson.age} anni e non può guidare,`
-    }
+     }
 
-})
-console.log(newArray);
+ })
+ console.log(newArray);
+

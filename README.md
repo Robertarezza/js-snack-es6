@@ -37,5 +37,7 @@ creo un array nuovo;
 faccio un ciclo for per iterare su ogni oggetto
 poi imposto la condizio
     se curPerson.age > 18
-        new array = `${curperson.name} ${curperson.lastname} ha ${curperson.age} e può guidare
+        new array += `${curperson.name} ${curperson.lastname} ha ${curperson.age} e può guidare
+    altrimenti
+        new array += `${curperson.name} ${curperson.lastname} ha ${curperson.age} non può guidare
     
